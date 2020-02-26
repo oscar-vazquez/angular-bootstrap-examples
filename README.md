@@ -10,3 +10,4 @@ dotnet new angular -o nombre_aplicacion
 Barra de navegación que se oculta automáticamente cuando se hace scroll hacia arriba y se muestra al hacer scroll hacia abajo.
 Queda siempre visible cuando se está en el tope de la página.
 
+npm install --save @ng-bootstrap/ng-bootstrap    npm install --save @fortawesome/fontawesome-free

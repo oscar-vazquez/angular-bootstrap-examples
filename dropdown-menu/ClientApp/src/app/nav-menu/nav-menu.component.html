@@ -1,0 +1,21 @@
+<header>
+  <nav class="navbar fixed-top shadow-sm navbar-light bg-light">
+    <div class="d-flex mr-auto">
+      <button class="navbar-toggler" type="button" 
+              (click)="isCollapsed = !isCollapsed" 
+              [attr.aria-expanded]="!isCollapsed" 
+              aria-controls="navbarsExampleDefault" 
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand " href="#">Dropdown Menu</a>
+      </div>
+
+      <div class="dropdown-menu" id="navbarsExampleDefault" [ngbCollapse]="isCollapsed">
+        <a class="dropdown-item" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="dropdown-item" href="#">Settings</a>
+        <a class="dropdown-item" href="#">Profile</a>
+        <a class="dropdown-item" href="#">Help</a>
+    </div>
+  </nav>
+</header>
